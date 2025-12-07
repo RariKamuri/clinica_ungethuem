@@ -20,6 +20,16 @@ const router = createRouter({
       component: () => import('@/views/NewPasswordView.vue'),
     },
     {
+      path: '/form',
+      name: 'Form',
+      component: () => import('@/views/FormView.vue'),
+    },
+    {
+      path: '/thanks',
+      name: 'Thanks',
+      component: () => import('@/views/ThanksView.vue'),
+    },
+    {
       path: '/dashboard',
       name: 'Dashboard',
       component: () => import('@/views/DashboardView.vue'),
